@@ -49,12 +49,13 @@ function draw() {
     noStroke();
     drawSpiky(centerX, centerY, secInner, secOuter, minSpikes);
 
-    // Debug text
+    /* Debug text
     fill(255);
     noStroke();
     textSize(14);
     text(`${hour()}:${nf(min, 2)}:${nf(sec, 2)}`, 10, 25);
     text(`spikes: ${hrSpikes} (hr) / ${minSpikes} (min) | sec fill: ${sec}/59`, 10, 45);
+    */
 }
 
 // Spiky blob
